@@ -8,14 +8,12 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #fff;
   filter: contrast(20);
 }
 
 .blob .pixel {
   position: absolute;
   border-radius: 100%;
-  filter: blur(30px);
 }
 
 .right-panel {

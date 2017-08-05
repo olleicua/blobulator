@@ -7,7 +7,8 @@
 
     reader.addEventListener('load', function() {
       BlobableImage.create(reader.result, function(image) {
-        Gallery.addImage(image);
+        //Gallery.addImage(image);
+        Blob.renderImage(image);
       });
     }, false);
 
