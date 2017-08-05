@@ -21,9 +21,10 @@ body {
 .right-panel {
   width: 40%;
   height: 100%;
+  overflow: auto;
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
 }
 
 .controls {
@@ -32,7 +33,7 @@ body {
 }
 
 .preview {
-  height: 250px;
+  height: 300px;
   width: 100%;
 }
 
